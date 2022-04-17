@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MastamaskConnectionRoot{
+  min-width: 420px;
+  min-height: 580px;
+  background-image: linear-gradient(to right bottom, #062047, #004d7a, #008793, #00bf72, #bdf14e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.MastamaskConnectionRoot > p{
+  font-size: 12px;
+}
+
+.ButtonRoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 220;
+  height: 50;
+  border-radius: 30px;
+  border-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.ButtonRoot > span {
+  color: #000 
+}
+
+.option{
+  background-color: transparent !important;
+  background: none !important;
+}
+
+.selection{
+  font-size: 14px;
+  color: #fff;
+  width: 215px;
+  height: 40px;
+  margin-top: 11px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.connectionButton{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 50px;
+  border-radius: 30px;
+  border-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 8px 
+}
+  
+.normalButton{
+  width: 190px;
+  height: 50px;
+  border-radius: 30px;
+  margin-bottom: 8px;
+  color: #fff;
+  border-color: transparent;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.no-margin{
+  margin-bottom: 0;
+}
+
+.header-logo{
+  margin-bottom: 10px;
+}
+
+.networkButtonStatus {
+  color: green;
+  position: relative !important;
+  top: -5px;
+  right: -30px;
+}
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.dbSpin-animation {
+	animation: rotation .6s infinite linear;
+	opacity: .8;
+}
+
+.dbSpin-normal {
+  
+}
